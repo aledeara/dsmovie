@@ -15,7 +15,7 @@ public class ScorePK implements Serializable {
 	private Movie movie;
 	
 	@ManyToOne
-	@JoinColumns(name = "user_id")
+	@JoinColumn(name = "user_id")
 	private User user;
 	
 	public ScorePK() {
