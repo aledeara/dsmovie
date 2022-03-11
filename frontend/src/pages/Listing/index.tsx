@@ -7,10 +7,8 @@ function Listing() {
 
     // FORMA ERRADA
     axios.get(`${BASE_URL}/movies?size=12&page=0`)
-    .then(response => {
+        .then(response => {
         console.log(response.data);
-
-
     });
 
     return (
